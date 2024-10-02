@@ -1,6 +1,4 @@
-Got it! Since your Resume Screening App uses machine learning and NLP for the model and Flask for web development, here's an updated `README.md` template with these details:
 
----
 
 # Resume Screening App
 
@@ -97,9 +95,7 @@ A **Resume Screening App** that uses Machine Learning and Natural Language Proce
 - **GET** `/results`: Get a list of screened resumes with relevance scores.
 - **POST** `/train`: Trigger training of the model using new data (optional).
 
-## Screenshots
 
-*(Include images of your web app interface, admin dashboard, and results screen here)*
 
 ## Contributing
 
@@ -111,6 +107,3 @@ We welcome contributions! If you'd like to improve this project, follow these st
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a new Pull Request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE
