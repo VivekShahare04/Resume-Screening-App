@@ -6,7 +6,9 @@ import re
 nltk.download('punkt')
 nltk.download('stopwords')
 
-
+#loading models
+clf = pickle.load(open('clf.pkl','rb'))
+tf = pickle.load(open('tfidf.pkl','rb'))
 
 #Web App
 def main():
