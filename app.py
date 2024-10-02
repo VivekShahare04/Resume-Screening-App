@@ -21,6 +21,9 @@ def clean_resume(resume_text):
     return clean_text
 # web app
 def main():
+    with open("Frontend/style.css") as f:
+        st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
+        
     st.title("Resume Screening App")
     uploaded_file = st.file_uploader('Upload Resume', type=['txt','pdf'])
 
